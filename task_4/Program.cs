@@ -5,7 +5,7 @@ int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Enter the second number");
 Console.WriteLine("b=");
 int b = int.Parse(Console.ReadLine());
-Console.WriteLine("Enter the second number");
+Console.WriteLine("Enter the third number");
 Console.WriteLine("c=");
 int c = int.Parse(Console.ReadLine());
 if(a > b && a > c)
