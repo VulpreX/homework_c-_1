@@ -1,10 +1,11 @@
 ﻿Console.WriteLine("Enter number");
 int n = int.Parse(Console.ReadLine());
-if (n % 2 ==0)
+switch (n % 2)
 {
-    System.Console.WriteLine("true");
-}
-else
-{
-    System.Console.WriteLine("false");
+    case 0:
+        Console.WriteLine("true");
+        break;
+    default:
+        Console.WriteLine("false");
+        break;
 }
